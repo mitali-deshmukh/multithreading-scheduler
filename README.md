@@ -4,7 +4,6 @@ This project implements a basic cooperative multitasking scheduler in C. It simu
 
 The goal of this project is educational. It demonstrates how scheduling, context switching, and stack management can be implemented in user space without relying on OS-level threads.
 
----
 
 ## Overview
 
@@ -13,8 +12,6 @@ The goal of this project is educational. It demonstrates how scheduling, context
 - Uses SIGALRM to trigger scheduling decisions
 - Employs a round-robin scheduling strategy
 - Handles thread lifecycle and cleanup
-
----
 
 ## Project Structure
 
@@ -29,7 +26,6 @@ The goal of this project is educational. It demonstrates how scheduling, context
 - system.h  
   Declares system-level helpers and definitions used by the scheduler.
 
----
 
 ## Core Data Structures
 
@@ -54,7 +50,6 @@ Global pointers maintain:
 - The head of the thread list
 - The currently running thread
 
----
 
 ## Key Functions
 
@@ -91,7 +86,6 @@ Global pointers maintain:
 - Frees allocated stacks and thread structures
 - Cleans up scheduler resources
 
----
 
 ## Usage Example
 
